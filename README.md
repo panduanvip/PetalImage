@@ -1,4 +1,4 @@
-# Yahoo Image Extractor
+# Petal Image Extractor
 
 Web extractor for Petal Image website
 
