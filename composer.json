@@ -1,0 +1,29 @@
+{
+    "name": "panduanvip/petal-image",
+    "type": "library",
+    "description": "Petal Image Extractor",
+    "keywords": ["Web Extractor", "HTML Extractor", "Data Extractor", "Petal Image", "Web Scraping"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "homepage": "https://panduan.vip",
+
+    "authors": [
+        {
+            "name": "Yoyon Sugiono",
+            "email": "yoyonsugiono@gmail.com",
+            "homepage": "https://panduan.vip",
+            "role": "developer"
+        }
+    ],
+
+    "require": {
+        "panduanvip/ronolo-json-extract": "^1.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "PanduanVIP\\WebExtractor\\": "src/"
+        }
+    }    
+    
+}
