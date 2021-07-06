@@ -1,0 +1,107 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ee336659ee107fc9cdc75eb1e68efb24",
+    "packages": [
+        {
+            "name": "panduanvip/helpers",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/panduanvip/Helpers.git",
+                "reference": "3314cd74dbce9a096bae75594c944c426d01015f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/panduanvip/Helpers/zipball/3314cd74dbce9a096bae75594c944c426d01015f",
+                "reference": "3314cd74dbce9a096bae75594c944c426d01015f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PanduanVIP\\Helpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yoyon Sugiono",
+                    "email": "yoyonsugiono@gmail.com",
+                    "homepage": "https://panduan.vip",
+                    "role": "developer"
+                }
+            ],
+            "description": "Text or string manipulation",
+            "homepage": "https://panduan.dev/panduanvip-helpers",
+            "keywords": [
+                "Text Manipulation",
+                "php",
+                "string manipulation"
+            ],
+            "support": {
+                "issues": "https://github.com/panduanvip/Helpers/issues",
+                "source": "https://github.com/panduanvip/Helpers/tree/1.0.0"
+            },
+            "time": "2021-07-06T00:24:17+00:00"
+        },
+        {
+            "name": "panduanvip/ronolo-json-extract",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/panduanvip/json-extract.git",
+                "reference": "3848b208b7be889f255de09673b5f67a7868f204"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/panduanvip/json-extract/zipball/3848b208b7be889f255de09673b5f67a7868f204",
+                "reference": "3848b208b7be889f255de09673b5f67a7868f204",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">= 7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RoNoLo\\JsonExtractor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ronald Locke"
+                }
+            ],
+            "description": "Extracts JSON from strings and returns PHP arrays.",
+            "homepage": "https://github.com/panduanvip/json-extract",
+            "support": {
+                "source": "https://github.com/panduanvip/json-extract/tree/1.2.1"
+            },
+            "time": "2021-05-16T15:48:59+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
